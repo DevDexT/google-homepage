@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<style>
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #header-left {
+        display: flex;
+        margin: 0 auto 0 0;
+        align-items: center;
+    }
+    #header-right {
+        display: flex;
+        margin: 0 0 0 auto;
+        align-items: center;
+    }
+    .Navi {
+        padding: 10px 10px 10px 10px;
+    }
+    #apps {
+        padding: 0 0 0 0;
+    }
+    #foogle{
+        display: flex;
+        justify-content: center;
+        padding: 10vmin 0 0 0;
+        scale: 75%;
+    }
+    #SearchBar {
+        display: flex;
+        justify-content: center;
+    }
+    #search {
+        width: 50vmin;
+        border: none;
+    }
+    #SearchContainer {
+        display: flex;
+        width: 800px;
+        border-style: solid;
+    }
+</style>
+
+<head>
+    <title>Foogle Home Page</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-left">
+            <a class="Navi" href="nothing">About</a>
+            <a class="Navi" href="nothing">Store</a>
+        </div>
+        <div id="header-right">
+            <a class="Navi" href="nothing">Gmail</a>
+            <a class="Navi" href="nothing">Images</a>
+            <figure class="Navi" id="apps">
+                <img src="./Images/apps.png" alt="Google Apps">
+            </figure>
+            <a class="Navi" href="nothing">Sign In</a>
+        </div>
+    </header>
+    <figure id="foogle">
+        <img src="./Images/foogle.png" alt="Foogle Logo">
+    </figure>
+    <div id="SearchBar">
+        <div id="SearchContainer">
+            <img src="./Images/search.png" alt="Search Icon">
+            <input type="text" id="search" name="search">
+        </div>
+    </div>
+</body>
